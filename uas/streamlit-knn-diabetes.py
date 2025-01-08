@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # membaca model
-diabetes_model = pickle.load(open('knn-diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('knn_diabetes_model.sav', 'rb'))
 
 #judul web
 st.title('KNN Prediksi Diabetes')
